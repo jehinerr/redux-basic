@@ -1,6 +1,11 @@
-import { incrementerAction, decrementAction, multiplyAction, divideAction, resetAction } from "./counter/counter.actions";
+import {
+  incrementerAction,
+  decrementAction,
+  multiplyAction,
+  divideAction,
+  resetAction,
+} from "./counter/counter.actions";
 import { reducer } from "./counter/counter.reducer";
-
 
 // Use the reducer
 console.log(reducer(10, incrementerAction)); // 11
